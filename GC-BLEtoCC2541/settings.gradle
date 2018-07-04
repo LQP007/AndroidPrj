@@ -1,0 +1,2 @@
+include ':APP-V1.0', ':APP-V1.2'
+project(':APP-V1.2').projectDir = new File('APP-V1.1')

@@ -1,0 +1,64 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="50dp"
+                android:text="这是listView显示列表"
+                android:textColor="@color/red"
+                android:textSize="17sp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ListView
+        android:id="@+id/lv_planet"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="1dp" />
+</LinearLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <ListView
+        android:id="@+id/lv_planet2"
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:transcriptMode="alwaysScroll"
+        android:dividerHeight="8dp"
+        />
+
+</LinearLayout>
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:padding="50dp"
+                android:text="这是listView显示所有列表"
+                android:textColor="@color/green"
+                android:textSize="17sp" />
+
+            <com.example.gc_bletopt.NoScrollListView
+                android:id="@+id/nslv_planet"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="50dp"
+                android:dividerHeight="1dp" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

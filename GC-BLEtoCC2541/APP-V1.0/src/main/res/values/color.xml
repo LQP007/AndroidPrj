@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_Backup">#e25454</color>
+    <color name="black">#000000</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#dddddd</color>
+    <color name="red">#ff0000</color>
+    <color name="orange_light">#ffffdd</color>
+    <color name="transparent">#00000000</color>
+    <color name="blue">#0099ff</color>
+    <color name="green">#00ff99</color>
+    <color name="blue_light">#aaaaff</color>
+    <color name="color_tb_bg">#b4b4b4</color>
+    <color name="color_tb_row">#a3a3a3</color>
+    <color name="color_ad_text">#fafafa</color>
+    <color name="color_ad_background">#e9e6e6</color>
+</resources>

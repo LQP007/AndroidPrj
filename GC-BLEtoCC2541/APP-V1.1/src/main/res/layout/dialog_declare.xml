@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="match_parent"
+
+    >
+
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="match_parent"
+        android:textColor="@color/color_ad_background"
+        android:text="点击左下角图标，可以设置数据类型为HEX或者字符串和服务UUID。"
+        />
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="match_parent"
+        android:textColor="@color/color_ad_background"
+        android:text="发送数据说明：\n1、若选择HEX模式，发送“1234”，
+自动转换成16进制格式“12 34”\n2、若选择str模式，发送“1234”，
+即为“1234”"
+        />
+    <TextView
+        android:layout_width="300sp"
+        android:layout_height="match_parent"
+        android:textColor="@color/color_ad_background"
+        android:text="注意事项：\n1、须等待显示“UUID加载完成”才可以正常工作\n
+2、若BLE设备断开连接须返回主页重新扫描连接\n
+3、串口服务UUID：********-0000-1000-8000-00805f9b34fb"
+        />
+</LinearLayout>
